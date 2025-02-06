@@ -1,0 +1,254 @@
+@media (max-width: 1280px) {
+  .section__one,
+  .section__two,
+  .section__three,
+  .section__four,
+  .section__five {
+    padding: 60px 0;
+  }
+
+  .section__one-information,
+  .section__two-information,
+  .section__three-information,
+  .section__four-information,
+  .section__five-information {
+    max-width: 530px;
+  }
+
+  .section__four-cards {
+    gap: 24px;
+  }
+
+  .footer__information {
+    gap: 75px;
+  }
+
+  .footer__information-details {
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    row-gap: 60px;
+  }
+
+  .footer__information-block:first-child {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+
+  .footer__copyright {
+    margin-top: 75px;
+  }
+}
+
+@media (max-width: 1024px) {
+  body:focus-within {
+    overflow-y: hidden;
+  }
+
+  .header__menu-button {
+    display: inline-flex;
+  }
+
+  .header__menu-button:focus ~ .navbar {
+    left: 0;
+  }
+
+  .navbar {
+    width: 100%;
+    height: 100%;
+    background: #f0f0f0;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 100%;
+    z-index: 50;
+    padding: 20px;
+    transition-property: left;
+    transition-duration: 0.7s;
+  }
+
+  .navbar__list {
+    flex-direction: column;
+  }
+
+  .navbar__actions {
+    margin-left: initial;
+  }
+
+  .section__one-information,
+  .section__two-information,
+  .section__three-information,
+  .section__four-information,
+  .section__five-information {
+    max-width: initial;
+  }
+
+  .section__one-image {
+    display: none;
+  }
+
+  .section__two-text {
+    max-width: initial;
+  }
+
+  .section__two-image,
+  .section__three-image,
+  .section__four-image,
+  .section__five-image {
+    width: fit-content;
+    position: initial;
+    margin: 0 auto 40px;
+  }
+
+  .section__three-image {
+    margin-top: 60px;
+  }
+
+  .section__three-block .section__three-image {
+    margin: 0;
+  }
+
+  .section__three-details {
+    max-width: initial;
+  }
+
+  .section__four-information {
+    text-align: start;
+    margin-left: initial;
+  }
+
+  .section__four-text {
+    max-width: initial;
+    margin-left: initial;
+  }
+
+  .section__four-image {
+    margin-top: 40px;
+  }
+
+  .section__four-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .section__five-text {
+    max-width: initial;
+  }
+
+  .section__five-image {
+    margin-top: 40px;
+  }
+
+  .footer__information {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__information-subcribe {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .footer__information-details {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__information-block {
+    text-align: center;
+  }
+
+  .footer__information-block:first-child {
+    grid-column: initial;
+    grid-row: 3/4;
+  }
+
+  .footer__copyright {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+
+  .section__one,
+  .section__two,
+  .section__three,
+  .section__four,
+  .section__five {
+    padding: 40px 0;
+  }
+
+  .section__one-title {
+    font-size: 52px;
+    line-height: 56px;
+  }
+
+  .section__one-form {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .section__one-email {
+    max-width: initial;
+  }
+
+  .section__two-title,
+  .section__three-title,
+  .section__four-title,
+  .section__five-title {
+    font-size: 44px;
+    line-height: 48px;
+  }
+
+  .section__two-text {
+    margin-bottom: 40px;
+  }
+
+  .section__three-operations {
+    margin-top: 40px;
+  }
+
+  .section__three-block {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .section__four-cards {
+    margin-top: 40px;
+  }
+
+  .five__accordion {
+    margin-top: 40px;
+  }
+
+  .footer__information {
+    gap: 60px;
+  }
+
+  .footer__information-subcribe {
+    max-width: initial;
+  }
+
+  .footer__information-email {
+    max-width: initial;
+  }
+
+  .footer__information-form {
+    flex-direction: column;
+    align-items: initial;
+  }
+
+  .footer__copyright {
+    margin-top: 60px;
+  }
+
+  .footer__copyright-text {
+    text-align: center;
+  }
+
+  .footer__copyright-list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+}
